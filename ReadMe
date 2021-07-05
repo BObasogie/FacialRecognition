@@ -1,0 +1,18 @@
+Background:
+
+  For this project the creation of an authentication system will be attempted for an aerial drone. You may have heard of Amazon’s one day shipping which intends to use drones to deliver packages within a certain distance of their storage facilities. I want to create a neural network that would accurately recognize a person to deliver a package. In retrospect, this would also be a great application to deliver necessities (food, water, medicine, clothes) to individuals who live in natural disaster zones, remote or difficult to reach areas. In addition, the drone could also use validation of handwritten signatures to verify delivery. I hope to successfully implement the facial scanning software with DLib/OpenCV. 
+  The target persons face would be preloaded into the model. The program would then scan and match the stored facial data with the scanned facial image using a camera. For face detection I will be done using Haar Cascade classifier.
+  
+Introduction:
+
+  The goal of this project is an authentication and verification system that can be utilized by drones to successfully deliver packages. Initially, a face detection algorithm was implemented to register a user’s preloaded face. The facial detection was implemented successfully however, the neural network used was already designed by the creators of the OpenCV python library. The successful implementation was spot on for this project but not working on the architecture didn’t match up with the prompt. 
+
+  To illustrate the design of a network the verification for signatures was created in Google Colab. The training was done using the MNIST dataset. The MNIST database contains handwritten digits with a training set of 60,000 examples, and a test set of 10,000 examples.    
+
+Instructions:
+
+Part 1: Implement handwriting (signature) validation using MNIST database. 
+
+Part 2: Implement facial detection 
+
+Part 2b: Implement facial recognition
